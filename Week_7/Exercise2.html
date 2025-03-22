@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise-2 Form</title>
+    </head>
+    <body>
+        <h1>HTML Form Test</h1>
+        <form method="get">
+            <table cellspacing="10">
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td><input type="text" id="name" name="name" required="required" size="35"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address</label></td>
+                    <td><input type="text" id="address" name="address" required="required" size="35"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" id="email" name="email" required="required" size="35"></td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="Male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="Female">
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Hobbies</label></td>
+                    <td>
+                        <input type="checkbox" id="Sports" name="hobbies" value="Sports">
+                        <label for="Sports">Sports</label>
+                        <input type="checkbox" id="Movies" name="hobbies" value="Movies">
+                        <label for="Movies">Movies</label>
+                        <input type="checkbox" id="Travelling" name="hobbies" value="Travelling">
+                        <label for="Travelling">Travelling</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="country">Country</label>
+                    </td>
+                    <td>
+                        <select id="country" name="country" required="required">
+                            <option value="">Select</option>
+                            <option value="Nepal">Nepal</option>
+                            <option value="UK">UK</option>
+                            <option value="USA">USA</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="message">Message</label>
+                    </td>
+                    <td>
+                        <textarea id="message" name="message" rows="9" cols="30"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
