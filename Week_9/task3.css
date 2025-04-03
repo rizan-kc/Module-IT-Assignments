@@ -1,0 +1,83 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 100px;
+    width: auto;
+    display: flex;
+    background-color: rgb(159, 151, 151);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+#logo{
+    height: 80px;
+    width: 80px;
+    background-image: url(logo.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    top: 8px;
+}
+nav{
+    height: 40px;
+    width: 500px;
+    background-color: rgb(190, 190, 190);
+    border-radius: 5px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+nav ul {
+    list-style: none; 
+    padding: 0;
+    display: flex; 
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    position: relative;
+    left: 15px;
+}
+#contact{
+    position: relative;
+    top: 80px;
+    right: 10px;
+}
+main{
+    display: grid;
+    gap: 20px;
+    padding:20px;
+    grid-template-columns: repeat(2,1fr);
+}
+.banner1{
+    border:1px solid#ccc;
+    padding:10px;
+    background-color: #f4f4f4;
+    box-shadow: 0px 10px 8px;
+}
+#foot{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#site{
+    padding: 18px;
+    border: 3px solid black;
+    box-shadow: 0px 6px 8px;
+}
+#testimony{
+    padding: 10px;
+    border: 3px solid #ffffff;
+    box-shadow: 0px 4px 8px;
+}
+#map{
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 8px 8px;
+}

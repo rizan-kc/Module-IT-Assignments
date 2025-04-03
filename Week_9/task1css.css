@@ -1,0 +1,68 @@
+div{
+    border: 2px solid black;
+}
+#outerbox{
+    height: 304px;
+    width: 410px;
+    position: absolute;
+    box-shadow: 0 0 20px 5px rgb(241, 241, 152);
+    border: 2px double black;
+}
+.col1{
+    height: 40px;
+    width: 190px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    text-align: center;
+}
+.col2{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    top: 12px;
+    left: 208px;
+    text-align: center;
+}
+.col3{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    top: 12px;
+    left: 314px;
+    text-align: center;
+}
+.blue1{
+    background-color: rgb(173, 216, 230);
+    height: 250px;
+    width: 190px;
+    position: relative;
+    top: 32px;
+    left: 4px;
+}
+.yellow1{
+    background-color: rgb(255, 255, 0) ;
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    top: 58px;
+    left: 208px;
+    text-align: center;
+}
+.red1{
+    background-color: rgb(255, 0, 0) ;
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    top: 58px;
+    left: 314px;
+    text-align: center;
+}
+.green1{
+    background-color: rgb(0, 128, 0);
+    width: 206px;
+    height: 204px;
+    position: absolute;
+    top:104px;
+    left: 208px;
+}
